@@ -1,0 +1,22 @@
+{
+    "versions": {
+        "latest": {
+            "raw": "2",
+            "major": "1",
+            "minor": "0",
+            "revision": "709",
+            "pre": "709.beta7",
+            "build": "709",
+            "type": "beta"
+        },
+        "stable": {
+            "raw": "v2.0.6-685",
+            "major": "2",
+            "minor": "0",
+            "revision": "6",
+            "pre": "685",
+            "build": "685",
+            "type": ""
+        }
+    }
+}
