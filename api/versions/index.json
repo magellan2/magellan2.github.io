@@ -1,13 +1,13 @@
 {
     "versions": {
         "latest": {
-            "raw": "2",
-            "major": "1",
+            "raw": "2.0.7-619.alpha",
+            "major": "2",
             "minor": "0",
-            "revision": "709",
-            "pre": "709.beta7",
-            "build": "709",
-            "type": "beta"
+            "revision": "7",
+            "pre": "619.alpha",
+            "build": "619",
+            "type": "alpha"
         },
         "stable": {
             "raw": "v2.0.6-685",
