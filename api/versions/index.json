@@ -17,6 +17,15 @@
             "pre": "685",
             "build": "685",
             "type": ""
+        },
+        "beta": {
+            "raw": "2.1.0-713.beta8",
+            "major": "2",
+            "minor": "1",
+            "revision": "0",
+            "pre": "713.beta8",
+            "build": "713",
+            "type": "beta"
         }
     }
 }
