@@ -10,12 +10,12 @@
             "type": "alpha"
         },
         "stable": {
-            "raw": "2.1.0-717.beta",
+            "raw": "2.1.0-720.beta",
             "major": "2",
             "minor": "1",
             "revision": "0",
-            "pre": "717.beta",
-            "build": "717",
+            "pre": "720.beta",
+            "build": "720",
             "type": "beta"
         },
         "beta": {
