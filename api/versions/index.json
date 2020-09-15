@@ -10,12 +10,12 @@
             "type": "alpha"
         },
         "stable": {
-            "raw": "2.1.0-729.rc",
+            "raw": "2.1.0-731.rc",
             "major": "2",
             "minor": "1",
             "revision": "0",
-            "pre": "729.rc",
-            "build": "729",
+            "pre": "731.rc",
+            "build": "731",
             "type": "rc"
         },
         "beta": {
