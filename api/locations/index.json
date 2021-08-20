@@ -8,5 +8,6 @@
 "www.files" : "http://sourceforge.net/projects/magellan-client/files/",
 "www.fernando" : "http://en.wikipedia.org/wiki/Ferdinand_Magellan",
 "version.release" : "http://magellan2.github.io/release/VERSION",
-"version.nightly" : "http://magellan2.github.io/latest/VERSION"
+"version.nightly" : "http://magellan2.github.io/latest/VERSION",
+"api.versions" : "https://magellan2.github.io/api/versions"
 }
