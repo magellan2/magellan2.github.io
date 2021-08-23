@@ -26,15 +26,6 @@
             "pre": "713.beta8",
             "build": "713",
             "type": "beta"
-        },
-        "tt": {
-            "raw": "2.1.0-748.rc",
-            "major": "2",
-            "minor": "1",
-            "revision": "0",
-            "pre": "748.rc",
-            "build": "748",
-            "type": "rc"
         }
     }
 }
