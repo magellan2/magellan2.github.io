@@ -11,12 +11,12 @@
         },
         "stable": {
             "raw": "v2.0.6-685",
-             "major": "2",
-             "minor": "0",
-             "revision": "6",
-             "pre": "685",
-             "build": "685",
-             "type": ""
+            "major": "2",
+            "minor": "0",
+            "revision": "6",
+            "pre": "685",
+            "build": "685",
+            "type": ""
         },
         "beta": {
             "raw": "2.1.0-713.beta8",
@@ -26,6 +26,15 @@
             "pre": "713.beta8",
             "build": "713",
             "type": "beta"
+        },
+        "tt": {
+            "raw": "2.1.0-748.rc",
+            "major": "2",
+            "minor": "1",
+            "revision": "0",
+            "pre": "748.rc",
+            "build": "748",
+            "type": "rc"
         }
     }
 }
