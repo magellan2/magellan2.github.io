@@ -1,13 +1,13 @@
 {
-"www.root" : "http://magellan2.github.io",
-"www.bugtracker" : "http://magellan2.github.io/bugs/",
-"www.homepage.alt" : "http://magellan.narabi.de",
-"www.download" : "http://magellan.narabi.de/download_en.php",
-"www.download.de" : "http://magellan.narabi.de/download_de.php",
-"www.download.en" : "http://magellan.narabi.de/download_en.php",
-"www.files" : "http://sourceforge.net/projects/magellan-client/files/",
-"www.fernando" : "http://en.wikipedia.org/wiki/Ferdinand_Magellan",
-"version.release" : "http://magellan2.github.io/release/VERSION",
-"version.nightly" : "http://magellan2.github.io/latest/VERSION",
+"www.root" : "https://magellan2.github.io",
+"www.bugtracker" : "https://magellan2.github.io/bugs/",
+"www.homepage.alt" : "https://magellan.narabi.de",
+"www.download" : "https://magellan.narabi.de/download_en.php",
+"www.download.de" : "https://magellan.narabi.de/download_de.php",
+"www.download.en" : "https://magellan.narabi.de/download_en.php",
+"www.files" : "https://sourceforge.net/projects/magellan-client/files/",
+"www.fernando" : "https://en.wikipedia.org/wiki/Ferdinand_Magellan",
+"version.release" : "https://magellan2.github.io/release/VERSION",
+"version.nightly" : "https://magellan2.github.io/latest/VERSION",
 "api.versions" : "https://magellan2.github.io/api/versions"
 }
