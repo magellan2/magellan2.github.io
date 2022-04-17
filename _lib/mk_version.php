@@ -11,11 +11,12 @@ function errHandle($errNo, $errStr, $errFile, $errLine) {
 set_error_handler('errHandle');
 
 $VERSIONS_FILE='index.json';
+// v1.2.3-456.abc0
 $vnum_preg='/^v?([0-9]+)[.]([0-9]+)[.]([0-9]+)(-(([1-9][0-9]*)([.]([a-z][a-z]*)([0-9]*))?))?$/';
 
 function write_versions($versions, $filename) {
   $content=json_encode($versions, JSON_PRETTY_PRINT);
-  
+
   if (is_writable($filename)) {
 
     if (!$handle = fopen($filename, 'w')) {
@@ -37,8 +38,11 @@ function write_versions($versions, $filename) {
 }
 
 
-if (sizeof($argv) != 3 || !preg_match('/^[a-z]+$/', $argv[1], $matches0) || !preg_match($vnum_preg, $argv[2], $matches)) {
+if (sizeof($argv) != 3) {
    echo "usage: $argv[0] <type> <version>\n";
+   exit(2);
+}
+if (!preg_match('/^[a-z]+$/', $argv[1], $matches0) || !preg_match($vnum_preg, $argv[2], $matches)) {
    if (empty($matches0))
       echo "invalid label $argv[1]\n";
    if (empty($matches))

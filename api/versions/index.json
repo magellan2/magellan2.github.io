@@ -27,14 +27,5 @@
             "build": "713",
             "type": "beta"
         },
-        "gamma": {
-            "raw": "v2.1.0-100.test",
-            "major": "2",
-            "minor": "1",
-            "revision": "0",
-            "pre": "100.test",
-            "build": "100",
-            "type": "test"
-        }
     }
 }

@@ -26,7 +26,11 @@ jobs:
           git add index.json
           cd $GITHUB_WORKSPACE
 
-          git commit -m "triggered new $TYPE version ${VERSION}"
-          REMOTE="https://$GITHUB_ACTOR:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
-          git push "$REMOTE"
-
+          if [[ "${{ github.event.client_payload.action }}" == "test" ]]; then
+            echo "just testing"
+            cat index.json
+          else
+            git commit -m "triggered new $TYPE version ${VERSION}"
+            REMOTE="https://$GITHUB_ACTOR:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
+            git push "$REMOTE"
+          fi
