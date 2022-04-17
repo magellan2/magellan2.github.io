@@ -28,7 +28,7 @@ jobs:
 
           if [[ "${{ github.event.client_payload.action }}" == "test" ]]; then
             echo "just testing"
-            cat index.json
+            cat api/versions/index.json
           else
             git commit -m "triggered new $TYPE version ${VERSION}"
             REMOTE="https://$GITHUB_ACTOR:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
