@@ -1,12 +1,12 @@
 {
     "versions": {
         "latest": {
-            "raw": "v2.1.0-782.rc",
+            "raw": "2.1.0-783.rc",
             "major": "2",
             "minor": "1",
             "revision": "0",
-            "pre": "782.rc",
-            "build": "782",
+            "pre": "783.rc",
+            "build": "783",
             "type": "rc"
         },
         "stable": {
