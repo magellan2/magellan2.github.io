@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="{{- site.LanguageCode | default "de" -}}">
+<head>
+  <title>Magellan | PbeM Client</title>
+{{- if .Params.keywords }}
+  <meta name="keywords" content="{{ delimit .Params.keywords `, ` }}" />
+{{- end }}
+  <meta charset="utf-8" />
+  <link href='https://fonts.googleapis.com/css?family=Cabin' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
+  <link rel="icon" type="image/png" href="{{ relURL "favicon.ico" }}" />
+  <link rel="alternate stylesheet" type="text/css" href="{{ relURL "classic.css" }}" />
+  <link rel="stylesheet" type="text/css" href="{{ relURL "default.css" }}"/>
+  <link rel="stylesheet" type="text/css" href="{{ relURL "theme.css" }}" />
+</head>
+<body>
+ <div id="container">
+  <div id="left" style="white-space: nowrap;">
+   <p>
+    <a href="/" onfocus="if(this.blur()){this.blur();}"><img src="{{ relURL "images/logo24.png" }}" alt="Magellan-Logo" border="0" /></a>
+   </p>
+   <p style="text-align: left">
+{{- range .Site.Home.AllTranslations }}
+    <a href="{{ .Permalink }}">[{{ .Lang }}]</a>
+{{- end }}
+   </p>
+   <p>
+    <a href="/{{ .Page.Lang }}/">Home</a>
+   </p>
+   <p>
+    <a href="/{{ .Page.Lang }}/download/">Download</a><br />
+    <a class="sublink" href="/{{ .Page.Lang }}/download/#magellan2">Magellan 2.x</a>&nbsp;&middot;&nbsp;&nbsp;<br /> 
+    <a class="sublink" href="/{{ .Page.Lang }}/download/#magellan1">Magellan 1.x</a>&nbsp;&middot;&nbsp;&nbsp;<br />
+   </p>
+   <p>
+    <a href="/{{ .Page.Lang }}/feedback/">Feedback &amp; Support</a>
+   </p>
+   <p>
+    <a href="/{{ .Page.Lang }}/faq/">F.A.Q.</a>
+   </p>
+   <p>
+    <a href="/{{ .Page.Lang }}/help/">Dokumentation</a>
+   </p>
+   <p>
+    <a href="/{{ .Page.Lang }}/plugins/">Plugins</a><br />
+    <a class="sublink" href="/{{ .Page.Lang }}/plugins/alliance">Alliance Plugin</a>&nbsp;&middot;&nbsp;&nbsp;<br />
+    <a class="sublink" href="/{{ .Page.Lang }}/plugins/extcmds">ExtCmds Plugin</a>&nbsp;&middot;&nbsp;&nbsp;<br />
+    <a class="sublink" href="/{{ .Page.Lang }}/plugins/lighthouseicons">Lighthouse Plugin</a>&nbsp;&middot;&nbsp;&nbsp;<br />
+    <a class="sublink" href="/{{ .Page.Lang }}/plugins/mapcleaner">MapCleaner Plugin</a>&nbsp;&middot;&nbsp;&nbsp;<br />
+    <a class="sublink" href="/{{ .Page.Lang }}/plugins/mapedit">MapEdit Plugin</a>&nbsp;&middot;&nbsp;&nbsp;<br />
+    <a class="sublink" href="/{{ .Page.Lang }}/plugins/mapicons">MapIcons Plugin</a>&nbsp;&middot;&nbsp;&nbsp;<br />
+    <a class="sublink" href="/{{ .Page.Lang }}/plugins/memorywatch">MemWatch Plugin</a>&nbsp;&middot;&nbsp;&nbsp;<br />
+    <a class="sublink" href="/{{ .Page.Lang }}/plugins/shiploader">ShipLoader Plugin</a>&nbsp;&middot;&nbsp;&nbsp;<br />
+    <a class="sublink" href="/{{ .Page.Lang }}/plugins/statistics">Statistics Plugin</a>&nbsp;&middot;&nbsp;&nbsp;<br />
+    <a class="sublink" href="/{{ .Page.Lang }}/plugins/teacher">Teacher Plugin</a>&nbsp;&middot;&nbsp;&nbsp;<br />
+   </p>
+   <p>
+    <a href="/{{ .Page.Lang }}/tools/">Tools</a><br /> 
+    <a class="sublink" href="/{{ .Page.Lang }}/tools/consolemerger">Console Merger</a>&nbsp;&middot;&nbsp;&nbsp;<br />
+   </p>
+   <p>
+    <a class="externalLink" href="https://magellan2.github.io/bugs/">Fehler melden</a>
+   </p>
+   <p>
+    <a class="externalLink" href="https://github.com/magellan2/magellan2">Code auf Github</a>
+   </p>
+   <p>
+    <a class="externalLink" href="https://sourceforge.net/projects/magellan-client">SourceForge</a>
+   </p>
+  </div>
+  <div id="head">
+   <a href="/" target="_top" onfocus="if(this.blur()){this.blur();}">
+    <img src="{{ relURL "images/header.gif" }}" alt="Magellan - Eressea Java-Client" border="0"/>
+   </a>
+  </div>
+  <div id="center">
+{{ block "main" . }}{{ end }}
+  </div>
+ </div>
+{{- with (.Param "downloader") }}
+ <script type="text/javascript" src="{{ relURL "download.js" }}"></script>
+{{- end }}
+</body>
+</html>
+

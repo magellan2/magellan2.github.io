@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>
+      Menüs
+    </title>
+    <meta http-equiv="Content-Language" content="en" />
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta name="keywords"
+    content="Magellan, Dokumentation, Eressea, PbeM, JavaClient" />
+    <meta name="description" content="Magellan Dokumentation" />
+
+    <link rel="stylesheet" href="../../default.css" type="text/css" />
+  </head>
+  <body>
+    <a id="top" name="top"></a> <!-- Inhalt -->
+    <h1>
+      Menüs
+    </h1>
+    Die Magellan-Menüstruktur gliedert sich wie folgt: 
+    <ul>
+      <li>
+        <a href="file/">Datei</a>
+      </li>
+      <li>
+        <a href="edit/">Bearbeiten</a>
+      </li>
+      <li>
+        <a href="orders/">Befehle</a>
+      </li>
+      <li>
+        <a href="bookmarks/">Lesezeichen</a>
+      </li>
+      <li>
+        <a href="map/">Karte</a>
+      </li>
+      <li>
+        <a href="desktop/">Desktop</a>
+      </li>
+      <li>
+        <a href="plugins/">Plugins</a>
+      </li>
+      <li>
+        <a href="extras/">Extras</a>
+      </li>
+    </ul>
+    Klick auf einen der oberen Punkte, um Hilfe zu den entsprechenden
+    Menüpunkten zu erhalten. <!-- Inhalt - Ende -->
+  </body>
+</html>
+

@@ -1,0 +1,24 @@
+baseURL = 'https://magellan.jaatho.de/'
+title = 'Magellan'
+theme = "magellan"
+
+defaultContentLanguage = 'de'
+DefaultContentLanguageInSubdir = true
+
+canonifyURLs = true
+
+[languages]
+  [languages.de]
+    contentDir = 'content/de'
+    weight = 1
+    languageName = 'DE'
+  [languages.en]
+    contentDir = 'content/en'
+    weight = 2
+    languageName = 'EN'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+      table = true

@@ -1,0 +1,22 @@
+table.plugin {
+  margin-left: 10px;
+}
+
+tr.plugin {
+  
+}
+
+td.plugin {
+  
+}
+
+pre {
+  padding-left: 10px;
+}
+
+pre.example {
+  border: dotted;
+  border-width: 1px;
+  border-color: black;
+  background-color: #D5BBA4;
+}
