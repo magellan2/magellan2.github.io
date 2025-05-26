@@ -1,0 +1,63 @@
+name: "React to release"
+
+on:
+  repository_dispatch:
+    types: [actions-release-trigger]
+
+jobs:
+  myEvent:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Checkout repository"
+        uses: actions/checkout@v4
+
+      - name: "Update Releases"
+        run: |
+          set -x
+          git checkout master
+          git config user.name "$GITHUB_ACTOR"
+          git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
+
+          SRC_REPO=${{ github.event.client_payload.caller_repository }}
+          TAG=${{ github.event.client_payload.tag }}
+          VERSION=${{ github.event.client_payload.version }}
+          BUILD=${{ github.event.client_payload.build }}
+          
+          CURRENT_RELEAE_VERSION_NUMBERS=( ${VERSION//./ } )
+          RELEASE_VERSION_MAJOR=${CURRENT_RELEAE_VERSION_NUMBERS[0]}
+          RELEASE_VERSION_MINOR=${CURRENT_RELEAE_VERSION_NUMBERS[1]}
+          RELEASE_VERSION_PATCH=${CURRENT_RELEAE_VERSION_NUMBERS[2]}
+          
+          echo "{" > api/versions/index.json
+          echo " \"versions\": {" >> api/versions/index.json
+          echo "  \"latest\": {" >> api/versions/index.json
+          echo "   \"raw\": \"${VERSION}-${BUILD}.rc\"," >> api/versions/index.json
+          echo "   \"major\": \"${RELEASE_VERSION_MAJOR}\"," >> api/versions/index.json
+          echo "   \"minor\": \"${RELEASE_VERSION_MINOR}\"," >> api/versions/index.json
+          echo "   \"revision\": \"${RELEASE_VERSION_PATCH}\"," >> api/versions/index.json
+          echo "   \"pre\": \"${BUILD}\"," >> api/versions/index.json
+          echo "   \"build\": \"${BUILD}\"," >> api/versions/index.json
+          echo "   \"type\": \"rc\"" >> api/versions/index.json
+          echo "  }," >> api/versions/index.json
+          echo "  \"stable\": {" >> api/versions/index.json
+          echo "   \"raw\": \"${VERSION}-${BUILD}\"," >> api/versions/index.json
+          echo "   \"major\": \"${RELEASE_VERSION_MAJOR}\"," >> api/versions/index.json
+          echo "   \"minor\": \"${RELEASE_VERSION_MINOR}\"," >> api/versions/index.json
+          echo "   \"revision\": \"${RELEASE_VERSION_PATCH}\"," >> api/versions/index.json
+          echo "   \"pre\": \"${BUILD}\"," >> api/versions/index.json
+          echo "   \"build\": \"${BUILD}\"," >> api/versions/index.json
+          echo "   \"type\": \"\"" >> api/versions/index.json
+          echo "  }" >> api/versions/index.json
+          echo " }" >> api/versions/index.json
+          echo "}" >> api/versions/index.json
+
+          git add api/versions/index.json
+
+          if [[ "${{ github.event.client_payload.action }}" == "test" ]]; then
+            echo "just testing"
+            cat api/versions/index.json
+          else
+            git commit -m "triggered new $TYPE version ${VERSION}"
+            REMOTE="https://$GITHUB_ACTOR:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
+            git push "$REMOTE"
+          fi
