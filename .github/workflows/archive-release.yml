@@ -5,7 +5,7 @@ on:
     types: [actions-release-trigger]
 
 jobs:
-  myEvent:
+  release:
     runs-on: ubuntu-latest
     steps:
       - name: "Checkout repository"
@@ -32,13 +32,13 @@ jobs:
           echo "{" > $FILE
           echo " \"versions\": {" >> $FILE
           echo "  \"latest\": {" >> $FILE
-          echo "   \"raw\": \"${VERSION}-${BUILD}.rc\"," >> $FILE
+          echo "   \"raw\": \"${VERSION}-${BUILD}\"," >> $FILE
           echo "   \"major\": \"${RELEASE_VERSION_MAJOR}\"," >> $FILE
           echo "   \"minor\": \"${RELEASE_VERSION_MINOR}\"," >> $FILE
           echo "   \"revision\": \"${RELEASE_VERSION_PATCH}\"," >> $FILE
           echo "   \"pre\": \"${BUILD}\"," >> $FILE
           echo "   \"build\": \"${BUILD}\"," >> $FILE
-          echo "   \"type\": \"rc\"" >> $FILE
+          echo "   \"type\": \"\"" >> $FILE
           echo "  }," >> $FILE
           echo "  \"stable\": {" >> $FILE
           echo "   \"raw\": \"${VERSION}-${BUILD}\"," >> $FILE
