@@ -4,7 +4,7 @@
 | | |
 | ---: | --- |
 | Name: | MapIcons Plugin |
-| Version: | 0.96 (Magellan 2.0.5)<br>1.41 (Magellan nightly) |
+| Version: | 1.41 |
 | Description: | Specific messages are visualized on the map |
 | Author: | Fiete |
 | Website: | - |

@@ -4,7 +4,7 @@
 | | |
 | ---: | --- |
 | Name: | MapIcons Plugin |
-| Version: | 0.96 (Magellan 2.0.5)<br>1.41 (Magellan 2.0.6 (nightly)) |
+| Version: | 1.41 |
 | Kurzbeschreibung: | Bestimmte Meldungen mit größeren Icons in der Karte anzeigen |
 | Autor: | Fiete |
 | Website: | - |

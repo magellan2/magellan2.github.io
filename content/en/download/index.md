@@ -35,24 +35,6 @@ Status: <span id="release_time">?</span>
 * <span id="release_link_macos">MacOS</span>
 * <span id="release_link_zip">ZIP file</span>
 * <span id="release_link_source">Source code at github (for developers)</span>
-  
-<a name="NightlyBuild" id="NightlyBuild"></a>
-
-## Nightly Build
-
-Here you can find the latest version of Magellan 2.x.
-This version is compiled whenever we make changes, and it may be unstable. So it is recommended for developers and beta testers only. In the <span id="nightly_changelog_link">CHANGELOG</span> you can find all changes made since the last build.
-  
-Version: <span id="nighlty_version">?</span>
-
-Status: <span id="nightly_time">?</span>
-
-* <span id="nightly_link_jar">JAR installer (Windows, Linux)</span>
-* <span id="nightly_link_windows">Windows</span>
-* <span id="nightly_link_unix">Linux</span>
-* <span id="nightly_link_macos">MacOS</span>
-* <span id="nightly_link_zip">ZIP file</span>
-* <span id="nightly_link_source">Source code at github (for developers)</span>
 
 <a name="magellan1"></a>
 
@@ -60,7 +42,7 @@ Status: <span id="nightly_time">?</span>
 
 The development of the old Magellan client has stopped because of the huge amount of  changes in the new release. It's not possible to transfer every necessary patch to this version. The latest version is 1.2.5h.
 
-You can download the latest version at [SourceForge](https://sourceforge.net/project/showfiles.php?group_id=174030/).
+You can download the latest version at [Github](https://github.com/magellan2/magellan2/releases).
 
 <a name="plugins"></a>
 
@@ -71,42 +53,37 @@ Here you can find some plugins that are available directly from this server. Add
 * **MapCleaner Plugin**<br /> 
   Repairs Reports<br /> 
   see [Description](/en/plugins/mapcleaner)<br /> 
-  Download for 2.0.5: [Installer JAR](/plugins/mapcleaner-installer-for2.0.5.jar)<br />
-  Download for nightly: <span id="nightly_plugin_mapcleaner_installer">Installer JAR</span>
+  Download: <span id="nightly_plugin_mapcleaner_installer">Installer JAR</span>
 
 * **MemoryWatch Plugin**<br />
   Shows Magellan memory usage<br /> 
   see [Description](/en/plugins/memorywatch)<br /> 
-  Download for 2.0.5: [Installer JAR](/plugins/memorywatch-installer-for2.0.5.jar)<br />
-  Download for nightly: <span id="nightly_plugin_memorywatch_installer">Installer JAR</span>
+  Download: <span id="nightly_plugin_memorywatch_installer">Installer JAR</span>
 
 * **Statistics Plugin**<br /> 
   Shows graphs and tables for historic data of a report<br /> 
   see [Description](/en/plugins/statistics)<br />
-  Download for nightly: <span id="nightly_plugin_statistics_installer">Installer JAR</span>
+  Download: <span id="nightly_plugin_statistics_installer">Installer JAR</span>
 
 * <a name="teacher"></a> **Teacher Plugin**<br /> 
   Simplifies teacher learner relations.<br /> 
   see [Description](/en/plugins/teacher)<br />
-  Download for 2.0.5: [Installer JAR](/plugins/teacher-installer-for2.0.5.jar) Version 0.10.4<br /> 
-  Download for nightly: <span id="nightly_plugin_teacher_installer">Installer JAR</span>
+  Download: <span id="nightly_plugin_teacher_installer">Installer JAR</span>
 
 * <a name="shiploader"></a> **ShipLoader Plugin**<br /> 
   Load your ships with ease...<br /> 
   see [Description](plugins/README.shiploader.txt)<br />
-  Download for 2.0.5: [Installer JAR](/plugins/shiploader-installer-for2.0.5.jar) Version 0.1.1<br /> 
-  Download for nightly: <span id="nightly_plugin_shiploader_installer">Installer JAR</span>
+  Download: <span id="nightly_plugin_shiploader_installer">Installer JAR</span>
 
 * <a name="mapicons"></a> **MapIcons Plugin**<br /> 
   Important messages seen on the map<br />
   see [Description](/en/plugins/mapicons)<br />
-  Download (Magellan 2.0.5): [Installer JAR](/plugins/mapicons-installer_2_0_5.jar) Version 0.96<br /> 
-  Download for nightly: <span id="nightly_plugin_mapicons_installer">Installer JAR</span>
+  Download: <span id="nightly_plugin_mapicons_installer">Installer JAR</span>
 
 * <a name="lighthouseicons"></a> **LightHouseIcons Plugin**<br /> 
   Current by lighthouse controlled regions and the maximum range of all lighthouse are visible<br /> 
   see [Description](/en/plugins/lighthouseicons)<br />
-  Download (all versions): <span id="nightly_plugin_lighthouseicons_installer">Installer JAR</span>
+  Download: <span id="nightly_plugin_lighthouseicons_installer">Installer JAR</span>
 
 <a name="tools"></a>
 
@@ -116,5 +93,4 @@ Next is our tools-section. For now, these tools are available for download:
 
 * **Console Merger**<br /> Merges two reports. needs an Magellan2 installation,
     but no running Magellan2 application.<br /> see [Description](/en/tools/consolemerger)<br /> 
-    Download (for Magellan 2.0.5): [executable JAR](/tools/consolemerger-for2.0.5.jar)<br />
-    Download (for Magellan "nightly): [executable JAR](/tools/consolemerger.jar)<br /> <br />
+    Download: [executable JAR](/tools/consolemerger.jar)<br /> <br />

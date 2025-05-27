@@ -107,25 +107,6 @@ function get_magellan_release() {
     href("release_link_macos",RELEASE["macos"],"MAC OS Installer");
     href("release_link_zip",RELEASE["zip"],"ZIP File");
     href("release_link_source",RELEASE["source"],"Source code at github (for developers)");
-
-    var htmlelement = document.getElementById("nightly_changelog_link");
-    if (htmlelement && LATEST["changelog"]) htmlelement.innerHTML = '<a href="'+LATEST["changelog"]+'">CHANGELOG</a>';
-
-    var htmlelement = document.getElementById("nighlty_version");
-    if (htmlelement) htmlelement.innerHTML = LATEST["version"];
-
-    var htmlelement = document.getElementById("nightly_time");
-    if (htmlelement) htmlelement.innerHTML = LATEST["formatted_time"];
-
-    href("nightly_link_jar",LATEST["jar"],"Installer JAR");
-    href("nightly_link_windows",LATEST["win"],"Windows Installer");
-    href("nightly_link_unix",LATEST["unix"],"Shell Installer");
-    href("nightly_link_macos",LATEST["macos"],"MAC OS Installer");
-    href("nightly_link_zip",LATEST["zip"],"ZIP File");
-    href("nightly_link_source",LATEST["source"],"Source code at github (for developers)");
-
-    // console.log(RELEASE);
-    // console.log(LATEST);
   });
 }
 
