@@ -1,22 +1,22 @@
 {
-    "versions": {
-        "latest": {
-            "raw": "2.1.0-791.rc",
-            "major": "2",
-            "minor": "1",
-            "revision": "0",
-            "pre": "791.rc",
-            "build": "791",
-            "type": "rc"
-        },
-        "stable": {
-            "raw": "v2.0.6-685",
-            "major": "2",
-            "minor": "0",
-            "revision": "6",
-            "pre": "685",
-            "build": "685",
-            "type": ""
-        }
-    }
+ "versions": {
+  "latest": {
+   "raw": "2.1.0-794",
+   "major": "2",
+   "minor": "1",
+   "revision": "0",
+   "pre": "794",
+   "build": "794",
+   "type": ""
+  },
+  "stable": {
+   "raw": "2.1.0-794",
+   "major": "2",
+   "minor": "1",
+   "revision": "0",
+   "pre": "794",
+   "build": "794",
+   "type": ""
+  }
+ }
 }
