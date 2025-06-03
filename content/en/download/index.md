@@ -53,37 +53,37 @@ Here you can find some plugins that are available directly from this server. Add
 * **MapCleaner Plugin**<br /> 
   Repairs Reports<br /> 
   see [Description](/en/plugins/mapcleaner)<br /> 
-  Download: <span id="nightly_plugin_mapcleaner_installer">Installer JAR</span>
+  Download: <span id="release_plugin_mapcleaner_installer">Installer JAR</span>
 
 * **MemoryWatch Plugin**<br />
   Shows Magellan memory usage<br /> 
   see [Description](/en/plugins/memorywatch)<br /> 
-  Download: <span id="nightly_plugin_memorywatch_installer">Installer JAR</span>
+  Download: <span id="release_plugin_memorywatch_installer">Installer JAR</span>
 
 * **Statistics Plugin**<br /> 
   Shows graphs and tables for historic data of a report<br /> 
   see [Description](/en/plugins/statistics)<br />
-  Download: <span id="nightly_plugin_statistics_installer">Installer JAR</span>
+  Download: <span id="release_plugin_statistics_installer">Installer JAR</span>
 
 * <a name="teacher"></a> **Teacher Plugin**<br /> 
   Simplifies teacher learner relations.<br /> 
   see [Description](/en/plugins/teacher)<br />
-  Download: <span id="nightly_plugin_teacher_installer">Installer JAR</span>
+  Download: <span id="release_plugin_teacher_installer">Installer JAR</span>
 
 * <a name="shiploader"></a> **ShipLoader Plugin**<br /> 
   Load your ships with ease...<br /> 
   see [Description](plugins/README.shiploader.txt)<br />
-  Download: <span id="nightly_plugin_shiploader_installer">Installer JAR</span>
+  Download: <span id="release_plugin_shiploader_installer">Installer JAR</span>
 
 * <a name="mapicons"></a> **MapIcons Plugin**<br /> 
   Important messages seen on the map<br />
   see [Description](/en/plugins/mapicons)<br />
-  Download: <span id="nightly_plugin_mapicons_installer">Installer JAR</span>
+  Download: <span id="release_plugin_mapicons_installer">Installer JAR</span>
 
 * <a name="lighthouseicons"></a> **LightHouseIcons Plugin**<br /> 
   Current by lighthouse controlled regions and the maximum range of all lighthouse are visible<br /> 
   see [Description](/en/plugins/lighthouseicons)<br />
-  Download: <span id="nightly_plugin_lighthouseicons_installer">Installer JAR</span>
+  Download: <span id="release_plugin_lighthouseicons_installer">Installer JAR</span>
 
 <a name="tools"></a>
 

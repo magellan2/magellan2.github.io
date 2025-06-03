@@ -3,7 +3,7 @@
 | | |
 | ---: | --- |
 | Name: | Statistics Plugin |
-| Version: | 0.7.alpha |
+| Version: | 0.11.0 |
 | Kurzbeschreibung: |  Zeigt Statistiken zu historischen Daten an |
 | Autor: | Thoralf |
 | Website: | - |

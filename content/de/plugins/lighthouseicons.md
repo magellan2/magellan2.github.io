@@ -4,7 +4,7 @@
 | | |
 | ---: | --- |
 | Name: | LightHouseIcons Plugin |
-| Version: | 0.2 |
+| Version: | 0.3 |
 | Kurzbeschreibung: | Tatsächlich gesehene Regionen und maximale Reichweite freundlicher und andere Leuchttürme wird angezeigt |
 | Autor: | Fiete |
 | Website: | - |

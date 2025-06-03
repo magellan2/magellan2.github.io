@@ -4,7 +4,7 @@
 | | |
 | ---: | --- |
 | Name: | Statistics Plugin |
-| Version: | 0.7.alpha |
+| Version: | 0.11.0 |
 | Description: | Shows statistics for historic report data |
 | Author: | Thoralf |
 | Website: | - |

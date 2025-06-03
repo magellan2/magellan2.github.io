@@ -3,7 +3,7 @@
 | | |
 | ---: | --- |
 | Name: | LightHouseIcons Plugin |
-| Version: | 0.2 |
+| Version: | 0.3 |
 | Description: | Shows maximal range of friendly and unfriendly lighthouses. Marks regions which are seen by a lighthouse only. |
 | Author: | Fiete |
 | Website: | - |

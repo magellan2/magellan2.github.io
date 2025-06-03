@@ -4,7 +4,7 @@
 | | |
 | ---: | --- |
 | Name: | Teacher Plugin |
-| Version: | 0.10.5/0.15 |
+| Version: | 0.17.0 |
 | Description: | Automatic assignment of teachers to students |
 | Author: | stm |
 | Website: | - |

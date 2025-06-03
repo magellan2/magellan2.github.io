@@ -56,38 +56,38 @@ ihr möglicherweise [auf GitHub](https://github.com/magellan2/magellan2-extensio
 * **MapCleaner Plugin**<br/>
   Repariert Reports<br/>
   siehe [Beschreibung](/de/plugins/mapcleaner)<br/>
-  Download: <span id="nightly_plugin_mapcleaner_installer">Installer JAR</span>
+  Download: <span id="release_plugin_mapcleaner_installer">Installer JAR</span>
 
 * **MemoryWatch Plugin**<br />
   Zeigt Magellan Speicherverbrauch an<br/>
   siehe [Beschreibung](/de/plugins/memorywatch)<br /> 
-  Download: <span id="nightly_plugin_memorywatch_installer">Installer JAR</span>
+  Download: <span id="release_plugin_memorywatch_installer">Installer JAR</span>
 
 * **Statistics Plugin**<br /> 
   Zeigten Grafiken und Tabellen für historische Reportdaten<br/>
   siehe [Beschreibung](/de/plugins/statistics)<br />
-  Download: <span id="nightly_plugin_statistics_installer">Installer JAR</span>
+  Download: <span id="release_plugin_statistics_installer">Installer JAR</span>
 
 * <a name="teacher"></a> **Teacher Plugin**<br /> 
   Vereinfachte Lehrer-Schüler Operation<br/>
   siehe [Beschreibung](/de/plugins/teacher)<br />
-  Download: <span id="nightly_plugin_teacher_installer">Installer JAR</span>
+  Download: <span id="release_plugin_teacher_installer">Installer JAR</span>
 
 * <a name="shiploader"></a> **ShipLoader Plugin**<br /> 
   Schiffe bequem beladen...<br/>
   siehe [Beschreibung](/plugins/README.shiploader.txt)<br />
-  Download: <span id="nightly_plugin_shiploader_installer">Installer JAR</span>
+  Download: <span id="release_plugin_shiploader_installer">Installer JAR</span>
 
 * <a name="mapicons"></a> **MapIcons Plugin**<br /> 
   Wichtige Nachrichten einfach sehen<br/>
   siehe [Beschreibung](/de/plugins/mapicons)<br />
   Download (für Magellan 2.0.5): <a href="/plugins/mapicons-installer_2_0_5.jar">Installer JAR</a> Version 0.96<br /> 
-  Download: <span id="nightly_plugin_mapicons_installer">Installer JAR</span>
+  Download: <span id="release_plugin_mapicons_installer">Installer JAR</span>
 
 * <a name="lighthouseicons"></a> **LightHouseIcons Plugin**<br /> 
   Aktuell überwachte Regionen und Reichweite visualisieren<br/>
   siehe [Beschreibung](/de/plugins/lighthouseicons)<br />
-  Download: <span id="nightly_plugin_lighthouseicons_installer">Installer JAR</span>
+  Download: <span id="release_plugin_lighthouseicons_installer">Installer JAR</span>
 
 <a name="tools"></a>
 

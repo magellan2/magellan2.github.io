@@ -3,7 +3,7 @@
 | | |
 | ---: | --- |
 | Name: | Teacher Plugin |
-| Version: | 0.10.5/0.15 |
+| Version: | 0.17.0 |
 | Kurzbeschreibung: | Vereinfachte Lehrer-Schüler Operation |
 | Autor: | stm |
 | Website: | - |

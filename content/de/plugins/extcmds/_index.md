@@ -3,7 +3,7 @@
 | | |
 | ---: | --- |
 | Name: | Extended Commands |
-| Version: | 1.0.beta |
+| Version: | 1.0 |
 | Kurzbeschreibung: | Scriptbasierte Bearbeitung von Einheiten |
 | Autor: | Thoralf |
 | Website: | - |

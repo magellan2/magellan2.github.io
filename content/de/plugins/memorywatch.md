@@ -3,7 +3,7 @@
 | | |
 | ---: | --- |
 | Name: | MemoryWatch Plugin |
-| Version: | 0.5 |
+| Version: | 1.1 |
 | Kurzbeschreibung: | Zeigt Magellan Speicherverbrauch an |
 | Autor: | Fiete |
 | Website: | - |

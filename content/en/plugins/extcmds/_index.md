@@ -3,7 +3,7 @@
 | | |
 | ---: | --- |
 | Name: | Extended Commands |
-| Version: | 1.0.beta |
+| Version: | 1.0 |
 | Description: | Java scripts for units |
 | Author: | Thoralf |
 | Website: | - |

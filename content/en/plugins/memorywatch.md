@@ -4,7 +4,7 @@
 | | |
 | ---: | --- |
 | Name: | MemoryWatch Plugin |
-| Version: | 0.5 |
+| Version: | 1.1 |
 | Description: | Makes the memory consumption of Magellan visible  |
 | Author: | Fiete |
 | Website: | - |

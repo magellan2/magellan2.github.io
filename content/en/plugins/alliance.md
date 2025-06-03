@@ -3,7 +3,7 @@
 | | |
 | ---: | --- |
 | Name: | Alliance Plugin |
-| Version: | 0.1.alpha |
+| Version: | 1.1 |
 | Description: | Server based management of alliance reports and commands |
 | Author: | Thoralf |
 | Website: | - |
