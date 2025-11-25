@@ -1,21 +1,21 @@
 {
  "versions": {
   "latest": {
-   "raw": "2.1.0-795",
+   "raw": "2.1.1",
    "major": "2",
    "minor": "1",
-   "revision": "0",
-   "pre": "795",
-   "build": "795",
+   "revision": "1",
+   "pre": "798",
+   "build": "798",
    "type": ""
   },
   "stable": {
-   "raw": "2.1.0-795",
+   "raw": "2.1.1",
    "major": "2",
    "minor": "1",
-   "revision": "0",
-   "pre": "795",
-   "build": "795",
+   "revision": "1",
+   "pre": "798",
+   "build": "798",
    "type": ""
   }
  }
